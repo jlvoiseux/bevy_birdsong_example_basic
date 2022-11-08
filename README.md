@@ -6,3 +6,8 @@ This Lorem Ipsum example showcases all current features of Birdsong, as well as 
 - Portraits
 
 A live demo is available [here](https://jlvoiseux.github.io/bevy_birdsong_example_basic/).
+
+## Running the example locally
+```
+cargo run --features bevy/dynamic
+```

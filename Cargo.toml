@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.8.1"
-bevy_birdsong = { path = "../bevy_birdsong" }
+bevy_birdsong = "0.1.0-dev"
 
 [workspace]
 resolver = "2"
