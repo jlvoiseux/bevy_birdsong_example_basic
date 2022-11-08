@@ -1,0 +1,17 @@
+[package]
+name = "bevy_birdsong_example_basic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.8.1"
+bevy_birdsong = { path = "../bevy_birdsong" }
+
+[workspace]
+resolver = "2"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

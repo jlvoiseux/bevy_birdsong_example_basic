@@ -1,0 +1,5 @@
+/target
+/dist
+*.lock
+.vscode
+build_html5.sh
